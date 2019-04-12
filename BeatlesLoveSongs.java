@@ -7,7 +7,7 @@ public class BeatlesLoveSongs {
 
 	ArrayList<String> songTitleList = new ArrayList<String>();
 
-	private String test2FindSubstringBewteenFirstTwoLocations(String s, String c) {
+	private String test3FindSubstringBewteenFirstTwoLocations(String s, String c) {
 		int index1 = s.indexOf(c);
 		String remainString = s.substring(index1 + 1);
 		if (remainString.indexOf(c) == -1){
