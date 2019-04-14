@@ -11,7 +11,7 @@ public class BeatlesLoveSongs {
 		int index1 = s.indexOf(c);
 		String remainString = s.substring(index1 + 1);
 		if (remainString.indexOf(c) == -1){
-			return null;
+			return "1";
 		}
 		else{
 			return remainString.substring(0, remainString.indexOf(c));
